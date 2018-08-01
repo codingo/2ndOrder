@@ -1,0 +1,17 @@
+{
+  "name": "2nd Order Subdomain Hijacking",
+  "version": "0.1",
+  "description": "Inspect and find domains that don't resolve or have expired (parked)",
+  "permissions": [
+    "webRequest",
+    "notifications",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "error.png"
+  },
+  "manifest_version": 2
+}
